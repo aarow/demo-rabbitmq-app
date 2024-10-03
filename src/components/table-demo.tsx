@@ -30,10 +30,10 @@ export function TableDemo({ data }: TableProps) {
       <TableBody>
         {data.map((item, index) => (
           <TableRow key={index + "=" + item.email}>
-            <TableCell>{item.timestamp}</TableCell>
-            <TableCell>{item.name}</TableCell>
-            <TableCell>{item.email}</TableCell>
-            <TableCell>{item.message}</TableCell>
+            <TableCell>{item.timestamp as string}</TableCell>
+            <TableCell>{item.name as string}</TableCell>
+            <TableCell>{item.email as string}</TableCell>
+            <TableCell>{item.message as string}</TableCell>
           </TableRow>
         ))}
       </TableBody>
