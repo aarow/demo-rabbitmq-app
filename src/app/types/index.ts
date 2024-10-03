@@ -1,2 +1,2 @@
-export type DataItem = Record<string, unknown>;
+export type DataItem = Record<string, string>;
 export type Data = Array<DataItem>;
