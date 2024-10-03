@@ -3,9 +3,10 @@
 import { useState } from "react";
 import { ContactForm } from "@/components/contact-form";
 import { TableDemo } from "@/components/table-demo";
+import { Data } from "./types";
 
 export default function Home() {
-  const [data, setData] = useState<Array<Record<string, any>>>([]);
+  const [data, setData] = useState<Data>([]);
 
   return (
     <article className="container mx-auto">

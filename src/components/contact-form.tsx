@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import sendMessage from "@/app/actions/sendMessage";
-import { Button } from "@/components/ui/button";
 import {
   Card,
   CardContent,

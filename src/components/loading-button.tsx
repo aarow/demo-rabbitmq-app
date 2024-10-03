@@ -23,10 +23,10 @@ export function LoadingButton({
   return (
     <Button
       onClick={onClick}
-      disabled={isLoading}
+      disabled={disabled}
       className={`${className}`}
       type={type}
-      aria-disabled={isLoading}
+      aria-disabled={disabled}
     >
       {isLoading && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
       {children}
